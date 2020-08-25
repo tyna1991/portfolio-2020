@@ -199,6 +199,7 @@ h2 .green{
     justify-content: center;
     flex-direction: column;
     margin: 20px;
+    width:50%
 }
 h4{
     font-size: 20px; 
@@ -554,6 +555,9 @@ nav a{
     }
     .icons-container{
         flex-direction: column;
+    }
+    .skill{
+        width:100%
     }
     #footer>.sm-container{
         flex-direction: column;
