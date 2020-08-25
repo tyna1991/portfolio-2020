@@ -557,7 +557,8 @@ nav a{
         flex-direction: column;
     }
     .skill{
-        width:100%
+        width:100%;
+        margin:0px
     }
     #footer>.sm-container{
         flex-direction: column;
