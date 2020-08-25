@@ -600,9 +600,10 @@ nav a{
     display: none;
 }
 .main > *:nth-child(2) {
-    width: 22%;
+    width: 100%;
     position: absolute;
     opacity: .15;
+    overflow: hidden;
 }
 .main > *:first-child {
     width: 100%;
@@ -621,5 +622,11 @@ h4 {
 }
 nav .name{
     padding-left: 10px;
+}
+.main img {
+    width: 100%;
+    max-width: none;
+    left: 25%;
+    position: relative;
 }
 }
