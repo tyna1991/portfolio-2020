@@ -635,9 +635,9 @@ nav .name{
     position: relative;
     height: auto;
 }
-.tech-icon{
+/* .tech-icon{
     width: calc(33.3% - 20px);
     height: auto;
     padding: 12px;
-}
+} */
 }
