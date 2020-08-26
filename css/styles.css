@@ -357,7 +357,7 @@ nav a{
    #nav-button{
        display:none;
        width: 38px;
-       height: 45px;
+       height: 30px;
        position: relative;
        -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
@@ -417,7 +417,7 @@ nav a{
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
-    top: 4px;
+    top: 5px;
     left: 8px;
   }
   
@@ -527,6 +527,9 @@ nav a{
         opacity: 0;
         height: 0px;
     }
+    body.opened{
+        overflow: hidden;
+    }
 }
 @media(max-width:610px){
     .main > *:first-child {
@@ -589,7 +592,8 @@ nav a{
         font-size:10px
     }
     nav{
-        padding:0 15px
+        padding:0 15px;
+        margin-bottom: 10px;
     }
     .main .btn {
     font-size: 12px;
@@ -629,5 +633,11 @@ nav .name{
     max-width: none;
     left: 25%;
     position: relative;
+    height: auto;
+}
+.tech-icon{
+    width: calc(33.3% - 20px);
+    height: auto;
+    padding: 12px;
 }
 }
